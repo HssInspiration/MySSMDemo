@@ -52,11 +52,11 @@
 			<version>8.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>jacob</groupId>
-			<artifactId>jacob</artifactId>
-			<version>1.0</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>jacob</groupId>-->
+			<!--<artifactId>jacob</artifactId>-->
+			<!--<version>1.0</version>-->
+		<!--</dependency>-->
 
 		<dependency>
 			<groupId>org.mongodb</groupId>
@@ -64,11 +64,11 @@
 			<version>3.8.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>net.sf.jacob-project</groupId>
-			<artifactId>jacob</artifactId>
-			<version>1.14.3</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>net.sf.jacob-project</groupId>-->
+			<!--<artifactId>jacob</artifactId>-->
+			<!--<version>1.14.3</version>-->
+		<!--</dependency>-->
 
 		<!-- 添加servlet支持 -->
 		<dependency>
@@ -263,7 +263,16 @@
 
 	<build>
 		<finalName>MySecondDemo</finalName>
-
+		<!--这个元素描述了项目相关的所有资源路径列表，例如和项目相关的属性文件，这些资源被包含在最终的打包文件里。-->
+		<resources>
+			<resource>
+				<!--   描述存放资源的目录，该路径相对POM路径-->
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.xml</include>
+				</includes>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

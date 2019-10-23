@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.mongodb:mongo-java-driver:3.8.0">
+    <CLASSES>
+      <root url="jar://D:/dev_soft/maven/apache-maven-3.5.4-bin/apache-maven-3.5.4/m2/repository/org/mongodb/mongo-java-driver/3.8.0/mongo-java-driver-3.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/dev_soft/maven/apache-maven-3.5.4-bin/apache-maven-3.5.4/m2/repository/org/mongodb/mongo-java-driver/3.8.0/mongo-java-driver-3.8.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/dev_soft/maven/apache-maven-3.5.4-bin/apache-maven-3.5.4/m2/repository/org/mongodb/mongo-java-driver/3.8.0/mongo-java-driver-3.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

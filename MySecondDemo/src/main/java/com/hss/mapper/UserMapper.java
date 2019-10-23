@@ -6,7 +6,7 @@ import com.hss.entity.User;
  * @author Administrator
  *
  */
-//@MyBatisMapper
+
 public interface UserMapper {
 	/**
 	 * 增加一个用户信息
