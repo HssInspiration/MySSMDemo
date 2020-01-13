@@ -25,4 +25,11 @@ public class UserController {
 		return "showUser";
 	}
 
+	@RequestMapping("test")
+	public String test(HttpServletRequest request, Model model) {
+//		User user = userService.queryUser("张翠山");
+//		model.addAttribute("user", user);
+		return "test";
+	}
+
 }
